@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+
   </head>
   <body>
     <noscript>
@@ -15,3 +18,137 @@
     <!-- built files will be auto injected -->
   </body>
 </html>
+
+<style>
+  @font-face {
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+  font-family :'Montserrat', sans-serif;
+  }
+  .v-breadcrumbs__item{
+    color:black !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700 !important;
+    /* font-style: normal; */
+    font-size: 12px;
+   
+  }
+  .center--box{
+    justify-content: center;
+    display: grid!important;
+  }
+.header-txt{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300 !important;
+    font-style: normal;
+    margin-top: 5px;
+    color: black;
+}
+.d-text{
+  color:rgba(29,29,29,.7);
+ margin-top: 5px!important;
+}
+  .v-breadcrumbs li{
+    padding: inherit;
+    
+   
+  }
+  
+
+  .v-breadcrumbs__divider{
+    display: none !important;
+   
+  }
+  .v-breadcrumbs{
+    justify-content: center;
+    background-color: #f5f5f5;
+  }
+  .subheading{
+    color: #fff;
+    font-size: 1.25rem;
+  }
+  .text--primary{
+    font-weight: bolder !important;
+  }
+ 
+  .text-center{
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+    color: #212529;
+  }
+ .fw-bold{
+  font-size: 2rem;
+font-weight: 500;
+ }
+ .c--text{
+  font-size: 1rem;
+    font-weight: 300;
+    color: black;
+  
+ }
+ .card-header{
+  padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  
+ }
+ .card-header{
+  font-size: 1.20rem;
+    font-weight: 400;
+ }
+ .txt{
+  font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+ }
+ .mx-auto{
+   max-width: 400px !important;
+   
+ }
+ .v-application .mx-auto {
+    margin-right:unset !important;
+    margin-left: 20px !important;
+    
+}
+.ti--post{
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+.theme--dark.v-footer{
+  background-color: #ffdacc;
+  display: block;
+}
+.v-sheet.v-card:not(.v-sheet--outlined){
+  box-shadow: none;
+}
+.theme--dark.v-divider{
+  border: none;
+}
+
+.Foo-bottom hr{
+ 
+  color: #1d1d1d;
+  background-color: #1d1d1d;
+  height: 1px;
+  width: 83.33%;
+  margin-right: auto;
+    margin-left: auto;
+}
+.t-about{
+  letter-spacing: .02em;
+    line-height: 1.8em;
+    text-transform: none;
+    color: rgba(29,29,29,.7);
+   
+}
+.form-text{
+  font-size: 14px;
+    letter-spacing: .02em;
+    line-height: 1.8em;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-bottom: 10px;
+    color: rgba(29,29,29,.7);
+}
+</style>
